@@ -1,0 +1,40 @@
+{
+  "name": "buildweek3-backend-mongo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon -e js -r dotenv/config ./src/server.js",
+    "start": "node ./src/server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ArvandMolla/Buildweek3-backend-mongo.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ArvandMolla/Buildweek3-backend-mongo/issues"
+  },
+  "homepage": "https://github.com/ArvandMolla/Buildweek3-backend-mongo#readme",
+  "dependencies": {
+    "cloudinary": "^1.26.0",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "http-errors": "^1.8.0",
+    "make": "^0.8.1",
+    "mongoose": "^5.12.14",
+    "multer": "^1.4.2",
+    "multer-storage-cloudinary": "^4.0.0",
+    "pdf": "^0.1.0",
+    "pdfmake": "^0.1.71",
+    "query-to-mongo": "^0.10.1"
+  },
+  "devDependencies": {
+    "dotenv": "^10.0.0",
+    "nodemon": "^2.0.7"
+  }
+}
